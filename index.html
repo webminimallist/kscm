@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KingStockCapital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="img/favicon.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <!--<li onclick=hideSidebar()><a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </a></li>-->
+            <li onclick=hideSidebar()><a href="">
+                <div class="container" onclick="hideFunction(this)">
+                    <div class="bar3"></div>
+                    <div class="bar2"></div>
+                    <div class="bar1"></div>
+                  </div>
+            </a></li>
+            <li><a href="">Strategy</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <ul >
+            <li><a href=""><img id="logo" src="logo.png" height="50vh"></a></li>
+            <li class="hideOnMobile"><a href="">Strategy</a></li>
+            <li class="hideOnMobile"><a href="">Project</a></li>
+            <li class="hideOnMobile"><a href="">About</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="hideOnMobile"><a href="login.html">Login</a></li>
+            <li class="menu-button">
+                <div class="container" onclick="showFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </li>
+            <!--<li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>-->
+        </ul>
+    </nav>
+    <header>
+        <img src="logo.png" alt="King Stock Capital Management" class="center-logo">
+        <div>
+            <h1>King Stock Capital Management</h1>
+        </div>
+        <div>
+            <h3>You Risk Your Future By Not Taking Risk</h3>
+        </div>
+    </header>
+    <main>
+        <a target="_blank" href="mapofpi.png">
+            <img src="mapofpi.png" alt="Map Of Pi" width="170px">
+        </a>
+        <div class="mapofpi"><h3><a href="https://mapofpi.com">Map Of Pi</a></h3></div>
+        
+        <a target="_blank" href="pinetwork.png">
+            <img src="pinetwork.png" alt="Pi Network" width="170px">
+        </a>
+        <div class="mapofpi"><h3><a href="https://kingstockcapital.substack.com/p/huong-dan-tham-gia-pi-network">How To Mine Pi?</a></h3></div>
+    </main>
+    <footer>
+        <div class="foot1">
+            <h2>Your Investment Is Your Future</h2>
+        </div>
+        <div class="foot2">
+            <h5>Terms of Services</h5>
+            <h5>Strategy</h5>
+            <h5>Project</h5>
+            <h5>About</h5>
+            <h5>Contact</h5>
+            <a href=""><img id="footLogo" src="logo.png" width="26vh"></a>
+        </div>
+        <div class="foot3">
+            <p class="foot3-normal" id="small-text">Copyright &copy 2024 by King Stock Capital Management. All rights reserved. | Legal Notices | Privacy Policy</p>
+            <p class="foot3-splitA" id="small-text">Copyright &copy 2024 by King Stock Capital Management. All rights reserved.</p>
+            <p class="foot3-splitB" id="small-text">| Legal Notices | Privacy Policy</p>
+        </div>
+    </footer>
+</body>
+</html>
